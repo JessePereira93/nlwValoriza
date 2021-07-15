@@ -1,0 +1,4 @@
+node_modules
+znotes
+yarn.lock
+*.log
