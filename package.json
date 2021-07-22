@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
-    "start": "ts-node-dev src/server.ts",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+    "start": "ts-node src/server.ts",
+    "typeorm": "ts-node ./node_modules/typeorm/cli.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
