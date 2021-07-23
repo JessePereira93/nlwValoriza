@@ -22,4 +22,4 @@ app.use(function (err, request, response, next) {
         message: "Internal Server Error"
     });
 });
-app.listen(3000, function () { return console.log("Server is Runing"); });
+var listener = app.listen(process.env.PORT || 3000, function () { return console.log("Server is Runing | ON PORT %d", listener.address().port); });
